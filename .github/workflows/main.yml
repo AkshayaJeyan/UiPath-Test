@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: Install git
+        run: git --version
              git Clone https://github.com/AkshayaJeyan/UiPath-Test.git
 
       # Runs a set of commands using the runners shell
