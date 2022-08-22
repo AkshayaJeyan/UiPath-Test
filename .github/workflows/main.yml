@@ -31,6 +31,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Run the trigger script
-        run: "C:/Users/rpa_uat/Desktop/TestTrigger.bat"
+        working-directory: C:/Users/rpa_uat/Desktop
+        run: ./TestTrigger.bat
         
 
