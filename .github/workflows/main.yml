@@ -31,7 +31,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: whoami
+        run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test\
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
