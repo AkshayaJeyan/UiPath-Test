@@ -24,41 +24,23 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      
-premake:
-runs-on: self-hosted
-needs: checkout
   
-steps:
-- working-directory: ${{env.GITHUB_WORKSPACE}}
-  run: .\TestTrigger.bat
+      - working-directory: ${{env.GITHUB_WORKSPACE}}
+        run: .\TestTrigger.bat
       
      # Runs a single command using the runners shell
-- name: Run a one-line script
-  run: dir      
-  
-
-      # Runs a single command using the runners shell
-- name: Run a one-line script
-  run: dir
+      - name: Run a one-line script
+        run: dir      
         
       # Runs a single command using the runners shell
-- name: Run a one-line script
-  run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test\
+      - name: Run the trigger script
+        run: |
+            cd C:\Users\rpa_uat
+            dir
         
       # Runs a single command using the runners shell
-- name: Run a one-line script
-  run: C:\Users\TestTrigger.bat
-        
-      # Runs a single command using the runners shell
-- name: Run the trigger script
-  run: |
-      cd C:\Users\rpa_uat
-      dir
-        
-      # Runs a single command using the runners shell
-- name: Run a one-line script
-  run: dir
+      - name: Run a one-line script
+        run: dir
         
   
         
