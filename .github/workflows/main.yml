@@ -37,7 +37,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the trigger script
         run: |
-          cd C:\Users
+          cd C:\Users\rpa_uat
           dir
         
       # Runs a single command using the runners shell
