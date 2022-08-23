@@ -26,13 +26,11 @@ jobs:
       - uses: actions/checkout@v3
       
 premake:
-runs-on: windows-latest
+runs-on: self-hosted
 needs: checkout
-
-
-steps:
-- working-directory: ${{env.GITHUB_WORKSPACE}}
-  run: ./TestTrigger.bat
+  steps:
+    - working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: ./TestTrigger.bat
       
       # Runs a single command using the runners shell
       - name: Run a one-line script
