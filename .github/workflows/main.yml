@@ -36,7 +36,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Run the trigger script
-        run: cd \Desktop
+        run: cd C:\Users
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
