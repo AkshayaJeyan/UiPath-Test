@@ -33,6 +33,9 @@ jobs:
       - name: Run a one-line script
         run: whoami
         
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: C:\Users\TestTrigger.bat
         
       # Runs a single command using the runners shell
       - name: Run the trigger script
