@@ -27,7 +27,7 @@ jobs:
       
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: code Newtext.txt  
+        run: start "Newtext.txt"
         
      # Runs a single command using the runners shell
       - name: Run a one-line script
