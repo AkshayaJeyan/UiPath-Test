@@ -27,7 +27,7 @@ jobs:
       
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: start TestTrigger.bat     
+        run: start new.txt  
         
      # Runs a single command using the runners shell
       - name: Run a one-line script
