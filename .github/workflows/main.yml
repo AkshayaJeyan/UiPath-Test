@@ -28,16 +28,24 @@ jobs:
      # Runs a single command using the runners shell
       - name: Run a one-line script
         run: whoami
-        
+
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ./TestTrigger.bat     
+        run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test
+     
+     # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: TestTrigger.bat 
+        
+     # Runs a single command using the runners shell
+      #- name: Run a one-line script
+       # run: ./TestTrigger.bat     
         
       # Runs a single command using the runners shell
-      - name: Run the trigger script
-        run: |
-            cd C:\Users\rpa_uat
-            dir
+      #- name: Run the trigger script
+        #run: |
+            #cd C:\Users\rpa_uat
+            #dir
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
