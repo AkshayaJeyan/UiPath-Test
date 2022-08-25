@@ -1,3 +1,3 @@
 echo "welcome"
 dir
-start .\TestTrigger.bat
+start ".\TestTrigger.bat"
