@@ -1,2 +1,3 @@
 echo "welcome"
-.\TestTrigger.bat
+dir
+start .\TestTrigger.bat
