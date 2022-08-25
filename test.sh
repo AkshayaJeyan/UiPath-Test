@@ -1,2 +1,2 @@
 echo "welcome"
-start .\TestTrigger.bat
+.\TestTrigger.bat
