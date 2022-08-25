@@ -1,3 +1,4 @@
 echo "welcome"
 dir
-start ".\TestTrigger.bat"
+runas /user:rpa_uat C:\actions-runner\_work\UiPath-Test\UiPath-Test\TestTrigger.bat
+#start ".\TestTrigger.bat"
