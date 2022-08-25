@@ -39,7 +39,7 @@ jobs:
 
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: test.bat
+        run: .\test.bat
         
      # Runs a single command using the runners shell
       #- name: Run a one-line script
