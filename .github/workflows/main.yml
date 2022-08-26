@@ -35,15 +35,15 @@ jobs:
 
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: runas /savecred /user:AVASOFT\rpa_uat C:\actions-runner\_work\UiPath-Test\UiPath-Test\TestTrigger.bat
+        run: start C:\actions-runner\_work\UiPath-Test\UiPath-Test\TestTrigger.bat
 
      # Runs a single command using the runners shell
       #- name: Run a one-line script
         #run: sh test.sh
         
      # Runs a single command using the runners shell
-      #- name: Run a one-line script
-       # run: ./TestTrigger.bat     
+      - name: Run a one-line script
+        run: ./TestTrigger.bat     
         
       # Runs a single command using the runners shell
       #- name: Run the trigger script
