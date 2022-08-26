@@ -35,11 +35,11 @@ jobs:
 
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: pwd
+        run: runas /savecred /user:AVASOFT\rpa_uat C:\actions-runner\_work\UiPath-Test\UiPath-Test\TestTrigger.bat
 
      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: sh test.sh
+      #- name: Run a one-line script
+        #run: sh test.sh
         
      # Runs a single command using the runners shell
       #- name: Run a one-line script
