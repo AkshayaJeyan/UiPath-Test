@@ -27,7 +27,7 @@ jobs:
       
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: Unblock-File -Path .\TestTrigger.bat
+        run: Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 
      # Runs a single command using the runners shell
      # - name: Run a one-line script
