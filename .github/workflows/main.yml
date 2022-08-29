@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@v3
       
      # Runs a single command using the runners shell
-      #- name: Run a one-line script
-        #run: whoami
+      - name: Run a one-line script
+        run: Unblock-File -Path .\TestTrigger.bat
 
      # Runs a single command using the runners shell
      # - name: Run a one-line script
@@ -38,16 +38,16 @@ jobs:
         #run: Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
 
      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: Get-ExecutionPolicy
+      #- name: Run a one-line script
+        #run: Get-ExecutionPolicy
         
      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: start C:\actions-runner\_work\UiPath-Test\UiPath-Test\TestTrigger.bat
+      #- name: Run a one-line script
+        #run: start C:\actions-runner\_work\UiPath-Test\UiPath-Test\TestTrigger.bat
 
      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: Get-ExecutionPolicy
+      #- name: Run a one-line script
+        #run: Get-ExecutionPolicy
         
      # Runs a single command using the runners shell
       #- name: Run a one-line script
@@ -60,8 +60,8 @@ jobs:
             #dir
         
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: dir
+      #- name: Run a one-line script
+        #run: dir
         
   
         
