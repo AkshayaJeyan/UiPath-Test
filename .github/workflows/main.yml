@@ -27,7 +27,7 @@ jobs:
       
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: Set-ExecutionPolicy -ExecutionPolicy UnRestricted -Scope CurrentUser --Force
+        run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
      # Runs a single command using the runners shell
      # - name: Run a one-line script
