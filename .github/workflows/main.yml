@@ -32,6 +32,10 @@ jobs:
      # Runs a single command using the runners shell
      # - name: Run a one-line script
       #  run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test
+      
+     # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
 
      # Runs a single command using the runners shell
       - name: Run a one-line script
