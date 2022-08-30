@@ -27,11 +27,7 @@ jobs:
      # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          whoami
-          pwd
-          dir
           git clone https://github.com/AkshayaJeyan/UiPath-Test.git
-          cd UiPath-Test
 
      # Runs a single command using the runners shell
       - name: Run a one-line script
