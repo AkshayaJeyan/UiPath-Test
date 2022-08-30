@@ -29,7 +29,7 @@ jobs:
       - name: Run a one-line script
         run: |
           pwd
-          .\TestTrigger.bat
+          .\sample.bat
 
      # Runs a single command using the runners shell
       #- name: Run a one-line script
