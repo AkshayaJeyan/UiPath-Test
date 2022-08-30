@@ -27,11 +27,11 @@ jobs:
       
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: dir
+        run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test
 
      # Runs a single command using the runners shell
-     # - name: Run a one-line script
-      #  run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test
+      - name: Run a one-line script
+        run: .\test.bat
       
      # Runs a single command using the runners shell
       #- name: Run a one-line script
