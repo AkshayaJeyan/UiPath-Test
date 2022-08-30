@@ -37,14 +37,14 @@ jobs:
        # run: cd UiPath-Test
 
      # Runs a single command using the runners shell
-      #- name: Run a one-line script
-       # run: .\TestTrigger.bat
+      - name: Run a one-line script
+        run: .\TestTrigger.bat
         
       #- uses: actions/checkout@v3
       
      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: .\sample.bat
+      #- name: Run a one-line script
+       # run: .\sample.bat
       
      # Runs a single command using the runners shell
       #- name: Run a one-line script
