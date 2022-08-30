@@ -28,7 +28,7 @@ jobs:
       - name: Run a one-line script
         run: |
           whoami
-          git --version
+          git clone https://github.com/AkshayaJeyan/UiPath-Test.git
 
      # Runs a single command using the runners shell
       - name: Run a one-line script
