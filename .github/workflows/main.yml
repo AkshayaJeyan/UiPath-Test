@@ -26,13 +26,13 @@ jobs:
       
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cd C:\actions-runner\_work\UiPath-Test\UiPath-Test\UiPath-Test
+        run: .\C:\actions-runner\_work\UiPath-Test\UiPath-Test\UiPath-Test\TestTrigger.bat
         
       #- uses: actions/checkout@v3
       
      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: .\TestTrigger.bat
+      #- name: Run a one-line script
+        #run: .\TestTrigger.bat
       
      # Runs a single command using the runners shell
       #- name: Run a one-line script
