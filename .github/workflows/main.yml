@@ -29,9 +29,12 @@ jobs:
         run: |
           git clone https://github.com/AkshayaJeyan/UiPath-Test.git
 
+      - name: Run a one-line script
+        run: cd UiPath-Test
+        
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: .\sample.bat
+        run: sample.bat
 
      # Runs a single command using the runners shell
       #- name: Run a one-line script
