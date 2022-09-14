@@ -41,7 +41,11 @@ jobs:
         
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cd C:/Users/rpa_uat/AppData/Local/Programs/UiPath/Studio     
+        run: cd C:/Users/rpa_uat/AppData/Local/Programs/UiPath/Studio 
+        
+     # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: pwd        
         
       #- uses: actions/checkout@v3
       
