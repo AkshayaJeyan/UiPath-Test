@@ -41,7 +41,7 @@ jobs:
         
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cd C:\Users\rpa_uat\AppData\Local\Programs\UiPath\Studio\UiRobot.exe       
+        run: cd C:\Users\rpa_uat\AppData\Local\Programs\UiPath\Studio\     
         
       #- uses: actions/checkout@v3
       
