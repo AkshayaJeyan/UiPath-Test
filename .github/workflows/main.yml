@@ -51,7 +51,7 @@ jobs:
       - name: Run a one-line script
         shell: pwsh
         run: |
-          .\sample.bat
+          .\TestTrigger.bat
         
       #- uses: actions/checkout@v3
       
