@@ -49,7 +49,6 @@ jobs:
         
      # Runs a single command using the runners shell
       - name: Run a one-line script
-        shell: pwsh
         run: .\TestTrigger.bat
         
       #- uses: actions/checkout@v3
